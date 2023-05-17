@@ -13,26 +13,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Gps {
-
-
     private LocalDateTime createdTime;
-
-
-    private String vehicleId;
-
-
-    private String deviceId;
-
-
-    private String companyId;
-
-
+    private int vehicleId;
+    private int deviceId;
+    private int companyId;
     private double latitude;
-
-
     private double longitude;
-
-
     private double speed;
 }
-

@@ -12,25 +12,13 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Vehicle {
-
-
-    private String vehicleId;
-
-
-    private String companyId;
+    private int vehicleId;
+    private int companyId;
     private String make;
     private String model;
     private int year;
-
-
     private LocalDateTime createdTime;
-
-
     private LocalDateTime modifiedTime;
-
-
     private String createdBy;
-
-
     private String modifiedBy;
 }
