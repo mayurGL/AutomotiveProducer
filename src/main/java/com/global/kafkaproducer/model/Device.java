@@ -13,24 +13,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Device {
-
-    private String deviceId;
-
-
+    private int deviceId;
     private String deviceType;
-
-
     private String deviceName;
-
-
     private LocalDateTime createdTime;
-
-
     private LocalDateTime modifiedTime;
-
-
     private String createdBy;
-
-
     private String modifiedBy;
 }

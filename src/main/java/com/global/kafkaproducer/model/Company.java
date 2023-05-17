@@ -13,24 +13,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Company {
-
-    private String companyId;
-
-
+    private int companyId;
     private String companyName;
-
-
     private String companyAddress;
-
-
     private LocalDateTime createdTime;
-
-
     private LocalDateTime modifiedTime;
-
-
     private String createdBy;
-
-
     private String modifiedBy;
 }
